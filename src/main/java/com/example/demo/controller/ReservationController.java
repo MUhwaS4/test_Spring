@@ -18,10 +18,10 @@ import com.example.demo.service.ReservationService;
 @RequestMapping("/reservation")
 public class ReservationController {
 	
-	@Autowired
+	@Autowired 
 	ReservationService service;
-
-	// 예약 목록 조회
+ 
+	// 예약 목록 조회 
 	@GetMapping("/list")
 	public void list(Model model) {
 		
